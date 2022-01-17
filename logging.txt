@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Sun, 02 Jan 2022 15:11:39 GMT
+Date: Thu, 06 Jan 2022 15:19:34 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,13 +40,51 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "d0ade9cc3c31f1f68c5a349a95fe8442",
+    "place_id": "33e2a83582e55eb2ab12bd50f81dc2d3",
     "scope": "APP",
-    "reference": "ee3a559e0a1b2f819d66aa3e00b74a10ee3a559e0a1b2f819d66aa3e00b74a10",
-    "id": "ee3a559e0a1b2f819d66aa3e00b74a10"
+    "reference": "28a827ab1f02cdfa727510be23ac856e28a827ab1f02cdfa727510be23ac856e",
+    "id": "28a827ab1f02cdfa727510be23ac856e"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=33e2a83582e55eb2ab12bd50f81dc2d3
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=33e2a83582e55eb2ab12bd50f81dc2d3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 06 Jan 2022 15:19:37 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 253
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "AAHouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "World cross center",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "English"
 }
 Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
@@ -58,37 +96,20 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "accuracy": 50,
-    "name": "BBHouse",
-    "phone_number": "(+91) 983 893 3937",
-    "address": "Sea cross center",
-    "website": "https://rahulshettyacademy.com",
-    "language": "Spanish",
-    "location": {
-        "lat": -38.383494,
-        "lng": 33.427362
-    },
-    "types": [
-        "shoe park",
-        "shop"
-    ]
+    "place_id": "33e2a83582e55eb2ab12bd50f81dc2d3"
 }
 HTTP/1.1 200 OK
-Date: Sun, 02 Jan 2022 15:11:40 GMT
+Date: Thu, 06 Jan 2022 15:19:40 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
+Content-Length: 15
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
 
 {
-    "status": "OK",
-    "place_id": "bc31856588fa7316197d5682d176a53e",
-    "scope": "APP",
-    "reference": "0e9ada2c66747ec6ff32bbcbf82aa25e0e9ada2c66747ec6ff32bbcbf82aa25e",
-    "id": "0e9ada2c66747ec6ff32bbcbf82aa25e"
+    "status": "OK"
 }
